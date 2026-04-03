@@ -1,4 +1,3 @@
-// components/RightSidebar.js
 export default function RightSidebar() {
   return (
     <div className="_layout_right_sidebar_wrap">

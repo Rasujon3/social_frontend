@@ -1,4 +1,3 @@
-// components/LeftSidebar.js
 export default function LeftSidebar() {
   return (
     <div className="_layout_left_sidebar_wrap">

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "../utils/axios";
 import { useRouter } from "next/router";
 import Head from "next/head";
+import Navbar from "../components/Navbar";
 import LeftSidebar from "../components/LeftSidebar";
 import RightSidebar from "../components/RightSidebar";
 
@@ -134,6 +135,7 @@ export default function Feed() {
       </Head>
 
       <div className="_layout _layout_main_wrapper">
+        <Navbar />
         <div className="container _custom_container">
           <div className="_layout_inner_wrap">
             <div className="row">
